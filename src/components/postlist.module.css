@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  row-gap: 14px;
+  min-height: 100%;
+}
+
+.postHead {
+  margin: 15px 0;
+}
